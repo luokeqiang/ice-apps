@@ -1,0 +1,20 @@
+{
+  "version": "1.26.20",
+  "description": "Free open-source disk encryption software",
+  "homepage": "https://www.veracrypt.fr",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.26.20/VeraCrypt.Portable.1.26.20.exe#/dl.7z",
+      "hash": "sha256:89E86266D2A5814788EF3648CA9FFFDC0C37550065CF1E349B62C37CECC89349",
+      "extract_dir": "VeraCrypt-1.26.20"
+    }
+  },
+  "bin": [
+    ["VeraCrypt.exe", "veracrypt"],
+    ["VeraCrypt Format.exe", "veracrypt-format"]
+  ],
+  "shortcuts": [
+    ["VeraCrypt.exe", "VeraCrypt"]
+  ],
+}
